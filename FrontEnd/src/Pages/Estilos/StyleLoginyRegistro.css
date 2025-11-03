@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  background-image: url("https://j2a4q7b7.delivery.rocketcdn.me/wp-content/uploads/2021/09/Computadora-Juana-Manso.jpg");
+  background-size: cover;      /* hace que la imagen cubra todo el espacio */
+  background-position: center; /* centra la imagen */
+  background-repeat: no-repeat;/* evita que se repita */
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 10px 0px;
+    background-color: #552b03;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ContainerImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+:link{
+    font-size: large;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #fffaf2;
+    font-weight: bold;
+    cursor: pointer;
+    border: solid black 2px;
+    padding: 10px;
+}
+
+.container-RegisterYLogin{
+    border: solid white 2px;
+    height: 60%;
+    width: 50%;
+    margin: auto;
+    margin-top: 1%;
+    background-color: #ffd095;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.form-RegisterYLogin{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+input{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color:#ece355;
+}
+
+button{
+    height: 40px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #90ee90;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Decoracion{
+    color: black;
+    background: white; 
+    border-Radius: 20px; 
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.Registrados{
+    background-color: #ffd095;
+    margin: auto;
+    width: 85%;
+}
+
+.Insertar{
+    padding: 10%;
+    width: 25%;
+    margin: 1%;
+    border: dashed blue;
+    overflow: auto;
+    font-size: large;
+    border-radius: 50px;
+    color: blue;
+}
